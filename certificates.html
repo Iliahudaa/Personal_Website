@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Certificates Section</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe4e8;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn
+{
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+li a.active 
+{
+  background-color: #df9fa9;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-icon:hover 
+{
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+/* Style for title */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px;
+}
+
+.gallery {
+  position: relative;
+  width: 400px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.gallery:hover .image {
+  opacity: 0.3;
+}
+
+.gallery:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #df9fa9;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 16px 32px;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+  margin-top:auto;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <div class="nav-icon active">
+    <li><a href="index.html" class="active"><i class="fa fa-home"></i></a></li>
+  </div>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li class="dropdown">
+  <a href="javascript:void(0)" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+      <a href="edu_pr.html">Primary school</a>
+      <a href="edu_high.html">High school</a>
+      <a href="edu_uni.html">University</a>
+    </div>
+  </li>
+  <li><a href="fam.html">Family</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+    <div class="dropdown-content">
+      <a href="gall_int.html">Intern</a>
+      <a href="gall_hol.html">Holiday</a>
+      <a href="gall_eid.html">Eid 2024</a>
+    </div>
+  </li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<h1>E-CERTIFICATES</h1>
+
+<div class="gallery-container">
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Kuiz Cabaran Minda Sihat"</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil1.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for the STEM Decathlon Challenge</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil2.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for the Webinar</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil3.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for A Journey Towards Developing Future Leaders Program</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil4.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Appreciation for "Siswa Cakna OKU, Siri 2" </div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil5.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Program Kerohanian Perdana Pasukan Badan Beruniform"</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil6.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Teknik Menjawab Matematik"</div>
+      </div>
+    </div>
+  </div>  
+  
+  <div class="gallery">
+    <div class="container">
+      <img src="e_sijil7.jpg" alt="Certificate" class="image" style="width:100%">
+      <div class="middle">
+        <div class="text">Certificate of Participation for "Pertandingan Kuiz Asertif Peringkat Kebangsaan"</div>
+      </div>
+    </div>
+  </div>  
+</div>
+  
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
