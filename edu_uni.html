@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Biodata</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe4e8;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn
+{
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+li a.active 
+{
+  background-color: #df9fa9;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-icon:hover 
+{
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+/* Style for body */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+
+.school-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+table th,
+table td {
+  border: 1px solid #df9fa9;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+table th {
+  background-color: #df9fa9;
+  color: white;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #fce4ec;
+}
+
+/* Section for Extra Content */
+.extra-content {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.extra-content h2 {
+  color: #df9fa9;
+  margin-bottom: 10px;
+}
+
+.extra-content p {
+  color: #555;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+  bottom: 0;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <div class="nav-icon active">
+    <li><a href="main.html"><i class="fa fa-home"></i></a></li>
+  </div>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li class="dropdown">
+  <a href="javascript:void(0)"  class="active" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+      <a href="edu_pr.html">Primary school</a>
+      <a href="edu_high.html">High school</a>
+      <a href="edu_uni.html">University</a>
+    </div>
+  </li>
+  <li><a href="fam.html">Family</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+    <div class="dropdown-content">
+      <a href="gall_int.html">Intern</a>
+      <a href="gall_hol.html">Holiday</a>
+      <a href="gall_eid.html">Eid 2024</a>
+    </div>
+  </li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<h1>UNIVERSITY JOURNEY</h1>
+
+<div class="school-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Details</th>
+        <th>Information</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>University Name</td>
+        <td>
+        <a href="https://kedah.uitm.edu.my/" target="_blank" style="text-decoration: none; color: black;">Universiti Teknologi Mara (UiTM) Cawangan Kedah
+        </td></a>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>Universiti Teknologi MARA (UiTM) Cawangan Kedah,
+        <br>Kampus Sungai Petani,
+        <br>08400 Merbok,
+        <br>Kedah Darulaman,
+        <br>Malaysia.</td>
+      </tr>
+      <tr>
+        <td>Duration</td>
+        <td>2022 - 2025</td>
+      </tr>
+      <tr>
+        <td>Achievements</td>
+        <td>
+          - Bronze Medal (Business Model Canvas Battle)<br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="extra-content">
+    <h2>Moments of University</h2>
+    <p>
+      My university journey has been one of transformation, growth, and discovery. It was during these years that I truly found my passion and purpose. From the challenging coursework to the diverse extracurricular activities, university was a time of learning, both academically and personally.
+    </p>
+    <p>
+      Along the way, I made lifelong friendships, learned from inspiring professors, and gained valuable hands-on experience through internships. Each experience at university not only deepened my knowledge in my chosen field but also helped me develop the skills and confidence to tackle future challenges. Reflecting on my time in university, I am proud of how much I have grown and excited for what the future holds.
+    </p>
+  </div>
+
+  <div class="extra-content">
+    <h2>Campus Tour</h2>
+      <center><iframe width="560" height="315" src="https://www.youtube.com/embed/TI0fy6NNzhY?si=wuUQ4-otEvuDbBDD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><center>
+  </div>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
