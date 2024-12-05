@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Biodata</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+body {
+  background-color: #ffe4e8;
+  margin:0;
+}
+
+/* Navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffe4e8;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 22px 24px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active), .dropdown:hover .dropbtn
+{
+  background-color: #df9fa9;
+  color: #ffe4e8;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 3;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+li a.active 
+{
+  background-color: #df9fa9;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-icon:hover 
+{
+  color: #fff6f7;
+}
+
+.img-brand {
+  padding-top: 0px;
+  width:55px;
+  height:55px;
+  border-radius:50%;
+  float:right;
+  position: fixed;
+  top: 0;
+  right: 5px;
+  top: 3px;
+}
+
+/* Style for body */
+h1 {
+ color: black;
+ font-family:brittany coast;
+ font-size: 200%;
+ background-color: #df9fa9;
+ padding: 30px;
+ text-align:center;
+}
+
+.school-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+table th,
+table td {
+  border: 1px solid #df9fa9;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+table th {
+  background-color: #df9fa9;
+  color: white;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #fce4ec;
+}
+
+/* Section for Extra Content */
+.extra-content {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.extra-content h2 {
+  color: #df9fa9;
+  margin-bottom: 10px;
+}
+
+.extra-content p {
+  color: #555;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 5px;
+  background: #df9fa9;
+  color: white;
+  bottom: 0;
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <div class="nav-icon active">
+    <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+  </div>
+  <li><a href="bio.html">Biodata</a></li>
+  <li><a href="ex.html">Experience</a></li>
+  <li class="dropdown">
+  <a href="javascript:void(0)"  class="active" class="dropbtn">Education</a>
+    <div class="dropdown-content">
+      <a href="edu_pr.html">Primary school</a>
+      <a href="edu_high.html">High school</a>
+      <a href="edu_uni.html">University</a>
+    </div>
+  </li>
+  <li><a href="fam.html">Family</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Gallery</a>
+    <div class="dropdown-content">
+      <a href="gall_int.html">Intern</a>
+      <a href="gall_hol.html">Holiday</a>
+      <a href="gall_eid.html">Eid 2024</a>
+    </div>
+  </li>
+  <li><img src="ilia_brand.png" alt="Ilia Logo" class="img-brand"></li>
+</ul>
+
+<h1>PRIMARY SCHOOL JOURNEY</h1>
+
+<div class="school-container">
+  <table>
+    <thead>
+      <tr>
+        <th>School Name</th>
+        <th>Type</th>
+        <th>Duration</th>
+        <th>Additional Info</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://www.facebook.com/skserimakmurbba6001/?locale=ms_MY" title="Go to SKSM page" target="_blank">Sekolah Kebangsaan Seri Makmur</a></td>
+        <td>Primary School</td>
+        <td>2011 - 2013</td>
+        <td>Joined the school choir and excelled in mathematics.</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.facebook.com/SRAEHYAULFALAHSG.BESAR/?locale=ms_MY" title="Go to SRA Ehyaul Falah page" target="_blank">Sekolah Rendah Agama Ehyaul Falah</a></td>
+        <td>Religious School</td>
+        <td>2011 - 2013</td>
+        <td>Learned Quranic studies and Islamic values.</td>
+      </tr>
+      <tr>
+        <td><a href="https://www.facebook.com/sksungaibinjai/" title="Go to SKSB page" target="_blank">Sekolah Kebangsaan Sungai Binjai</a></td>
+        <td>Primary School</td>
+        <td>2013 - 2016</td>
+        <td>Taking my UPSR exam here.</td>
+      </tr>
+      <tr>
+        <td><a href="https://m.facebook.com/pages/Sekolah-Rendah-Agama-Pekan-Meru/449257201778270" title="Go to SRA Pekan Meru page" target="_blank">Sekolah Rendah Agama Pekan Meru</a></td>
+        <td>Religious School</td>
+        <td>2013 - 2016</td>
+        <td>Taking my PSRA exam here.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="extra-content">
+    <h2>Memories of Primary School</h2>
+    <p>
+      My primary school years were a time of curiosity, discovery, and building the foundation of who I am today. I attended both academic and religious schools, where I gained valuable lessons not only in academics but also in discipline and moral values. These were the years when I discovered my love for learning, participated in exciting activities like sports and school choirs, and made friendships that brought so much joy to my childhood.
+    </p>
+    <p>
+     Winning competitions, celebrating school events, and the small, everyday moments in the classroom all hold a special place in my heart. Looking back, primary school was a journey of fun, growth, and unforgettable memories that set the stage for my future adventures.
+    </p>
+  </div>
+</div>
+
+<footer class="footer">
+    <p>© 2024 Nur Ilia Huda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
